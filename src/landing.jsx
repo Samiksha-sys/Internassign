@@ -7,16 +7,26 @@ function Landing(){
         
         <div className="abov">
             <div className="ttier">
+               
             <div className="ttier1">
                 <h1>AR SHAKIR</h1>
             </div>
             <div className="ttier2">
                 <ul>
-                   <li><p>Product <IoIosArrowDown/></p>
+                   <li><p>Product <IoIosArrowDown/>
+                </p>
+                <ul>
+                    <p>Card</p>
+                    <p>Cheque</p>
+                </ul>
                    
                    </li>
                     <li><p>Template <IoIosArrowDown/></p>
-            
+            <ul>
+                <p>Simple</p>
+                <p>Grid</p>
+                <p>Flex</p>
+            </ul>
                         </li>
                     <li><p>Blog </p></li>
                     <li><p>Pricing</p></li>

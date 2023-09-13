@@ -32,6 +32,7 @@ font-weight: 700;
   .ttier2 ul li{
     position:relative;
     float:left;
+    text-align: center;
   }
   .ttier2 ul li p{
     font-size:16px;
@@ -39,76 +40,57 @@ font-weight: 700;
     font-weight: 400;
     /* display:block; */
     padding:0px 20px;
-    align-items: center;
+    text-align: center;
+    
     
   }
   .ttier2 ul li p:hover{
     
-    color:grey;
+    
+    padding-top: 10px;
     cursor:pointer;
   }
-  /* .ttier{
-    display: flex;
-  justify-content: flex-start;
-    flex-direction: row;
-    padding-top:60px;
-    padding-left:60px;
-gap:200px;
-align-items: center;
-flex-wrap: wrap;
-  }
-  .ttier1{
-font-size: 12px;
-font-weight: 700;
-  }
-  .ttier2 ul{
-    list-style: none;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    gap:30px;
-
-  }
-  .ttier2 ul li p1{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    gap:10px;
-  }
-  .ttier2 ul li p2{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    gap:10px;
-  }
-  .ttier3{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    gap:40px;
-  }
-  .ttier3 p3{
+.ttier2 ul li ul{
+  position:absolute;
+  left:0;
+  width:100px;
+  padding-top:10px;
+  display: none;
+}
+.ttier2 ul li:hover >ul{
+  display:initial;
+}
+.ttier3{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap:40px;
+}
+.ttier3 p3{
 font-weight:600;
 
-  }
-  .ttier3 button{
-    background-color:  #4F46BA;
-    color:white;
-    font-size:16px;
-    font-weight:400;
-    padding:20px 30px;
-    border:none ;
-    
-  }
-  .ttier3 button:hover{
-    background-color: #22D497;
-    color:white;
-  } */
+}
+.ttier3 button{
+  background-color:  #4F46BA;
+  color:white;
+  font-size:16px;
+  font-weight:400;
+  padding:20px 30px;
+  border:none ;
+  
+}
+.ttier3 button:hover{
+  background-color: #22D497;
+  color:white;
+} 
+
+ 
   .btier{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-top:80px;
+    justify-content: flex-start;
+    padding-top:20px;
+    gap:20px;
     
   }
   .btierl{
@@ -1073,6 +1055,10 @@ padding-left:80px; */
   align-items: center;
   padding-top: 25px;
   gap: 5px;
+}
+.ncardl h3:hover{
+  cursor:pointer;
+  
 }
 .ncardr {
   width: 40%;
