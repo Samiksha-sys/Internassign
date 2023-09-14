@@ -551,13 +551,13 @@ font-weight:600;
 
 }
 .stal{
-  padding:100px 60px;
+  padding-left: 60px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 
   
-  gap:20px;
+  gap:40px;
   
 }
 
@@ -569,8 +569,8 @@ font-weight:600;
 
 }
 .stal2{
-  width:400px;
-  font-size: 26px;
+  width:450px;
+  font-size: 30px;
   color:black;
   font-weight: 700;
   line-height: 45px;
@@ -605,7 +605,7 @@ font-weight:600;
 .star {
   color:  #DBF1FA;
   border-radius:10px;
-  
+  padding-bottom:60px;
  
  
  }
@@ -819,6 +819,7 @@ padding-left:80px; */
    overflow-x: visible; 
   overflow-y: visible;
   
+  
 }
 .blanb1{
   border-radius:10px;
@@ -830,6 +831,7 @@ padding-left:80px; */
   flex-direction: row;
   justify-content: flex-start;
   gap:20px;
+  
 }
 .blanb11 {
  padding:60px 20px;
@@ -890,9 +892,11 @@ padding-left:80px; */
   flex-direction: row;
   padding:40px 100px;
   gap:80px;
+  flex-wrap: wrap;
 }
 .spakco1{
   width:100px;
+ 
 }
 .spakco1 p1{
   color:white;
@@ -905,6 +909,7 @@ padding-left:80px; */
   flex-direction: row;
   justify-content: flex-start;
   gap:80px;
+  flex-wrap: wrap;
   
 }
 .spakco21{
@@ -1013,6 +1018,7 @@ padding-left:80px; */
 }
 .ab2 {
   padding-top: 20px;
+  
 }
 .ncard {
   border-radius: 10px;
@@ -1025,11 +1031,14 @@ padding-left:80px; */
   justify-content: flex-start;
   flex-direction: row;
   gap: 200px;
+  
+  
 }
 .ncardl {
   padding-left: 20px;
   padding-top: 40px;
   width: 60%;
+  
 }
 .ncardl h2 {
   color: #000;
@@ -1074,6 +1083,7 @@ padding-left:80px; */
   padding-top: 40px;
   justify-content: flex-start;
   gap: 50px;
+  flex-wrap: wrap;
 }
 .ocard1 {
   border-radius: 10px;
@@ -1187,12 +1197,14 @@ padding-left:80px; */
   justify-content: flex-start;
   padding-top: 50px;
   gap: 40px;
+  flex-wrap: wrap;
 }
 .abobl {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 40px;
+  flex-wrap: wrap;
   
 }
 .abobl1 {
@@ -1356,7 +1368,7 @@ padding-left:80px; */
 .def{
   background-color:  #FAFBFF;
   padding:100px 60px;
-
+  
 }
 .deft{
   border-radius: 10px;
@@ -1365,12 +1377,12 @@ padding-left:80px; */
   
   height:300px;
   width:1100px;
-  
+ 
 }
 .deft1 {
  text-align:center;
  padding:60px 60px;
-  
+
   
 }
 .deft1 h1{
@@ -1408,7 +1420,7 @@ padding-left:80px; */
   padding-bottom:80px;
   padding-left:60px;
   padding-right:20px;
-  
+  flex-wrap: wrap;
 }
 
 .defb1{
