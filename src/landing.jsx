@@ -7,6 +7,7 @@ function Landing(){
         
         <div className="abov">
             <div className="ttier">
+                
                
             <div className="ttier1">
                 <h1>AR SHAKIR</h1>

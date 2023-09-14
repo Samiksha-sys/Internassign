@@ -221,6 +221,12 @@ font-weight:600;
 .topib img{
   width:1150px;
 }
+@media(max-width:991px){
+  ttier{
+    padding:20px;
+  }
+  }
+
 .default {
   background-color: #fafbff;
   
@@ -1420,7 +1426,7 @@ padding-left:80px; */
   padding-bottom:80px;
   padding-left:60px;
   padding-right:20px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .defb1{
